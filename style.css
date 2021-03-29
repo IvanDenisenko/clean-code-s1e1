@@ -24,7 +24,7 @@
       text-align: center;
     }
 }
-.centered-elem {
+.inf {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -34,8 +34,9 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-wrapper {
+.inf__wrapper {
     display: flex;
+    margin-top: 24px;
 }
 ul {
     margin: 0;
@@ -62,8 +63,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h3{
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -93,7 +93,7 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-.new-task {
+.inf__task {
     width: 318px;
 }
 p > button:hover {
